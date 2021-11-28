@@ -138,12 +138,29 @@ img {
 @media (min-width: 420px) {
     img {
         max-width: 50%;
+        display: inline-block;
+        text-align: center;
     }
 }
 
 /* Для больших устройств (ноуты, пк) */
 @media (min-width: 760px) {
     img {
-        max-width: 48%;
+        max-width: 100%;
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        margin: 0 auto;
     }
+    /* .hero-image{
+        margin-left: 175px;
+    }
+    .sub-hero-image{
+        margin-left: 75px;
+    }
+    .sizers-women{
+        margin-left: 350px;
+    } */
 }
