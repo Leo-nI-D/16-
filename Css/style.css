@@ -1,0 +1,149 @@
+/* global style */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: #FFB776; */
+}
+
+/* main style */
+.main {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #FFB776;
+}
+
+.h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    color: #000;
+}
+
+.hero-image {
+    width: 1000px;
+
+
+}
+
+.activity-days-p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+}
+
+.sub-hero-image {
+    width: 590px;
+
+}
+
+.sub-hero-p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+}
+
+
+.last-section-list-item,
+.last-section-list-item-link {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000;
+    margin: 30px;
+    padding: 5px;
+    background: #FFEC89;
+    text-align: center;
+}
+
+.last-section-list-item-link:hover {
+    text-shadow: 5px #000;
+    color: blueviolet;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.sizers-women {
+
+    width: 750px;
+
+}
+
+/* footer style */
+.footer {
+    text-align: center;
+}
+
+footer>h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+footer>h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 10px;
+    color: #595959;
+    margin: 10px;
+}
+
+footer>ul>li {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+footer>a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer>a:hover {
+    color: coral;
+    text-decoration: underline;
+    text-shadow: 1px #000;
+    transition: 0.5s;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+/* Для средних устройств (планшеты) */
+@media (min-width: 420px) {
+    img {
+        max-width: 50%;
+    }
+}
+
+/* Для больших устройств (ноуты, пк) */
+@media (min-width: 760px) {
+    img {
+        max-width: 48%;
+    }
+}
