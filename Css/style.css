@@ -1,10 +1,8 @@
 /* global style */
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background: #FFB776; */
 }
 
 /* main style */
@@ -27,8 +25,6 @@
 
 .hero-image {
     width: 1000px;
-
-
 }
 
 .activity-days-p {
@@ -43,7 +39,6 @@
 
 .sub-hero-image {
     width: 590px;
-
 }
 
 .sub-hero-p {
@@ -56,6 +51,10 @@
     text-align: center;
 }
 
+.flex-style{
+    display: flex;
+justify-content: space-evenly;
+}
 
 .last-section-list-item,
 .last-section-list-item-link {
@@ -81,9 +80,7 @@
 }
 
 .sizers-women {
-
     width: 750px;
-
 }
 
 /* footer style */
@@ -131,36 +128,35 @@ footer>a:hover {
 
 img {
     max-width: 100%;
-    display: inline-block;
+    display: flex;
 }
+/* media queri (adaptation) */
 
-/* Для средних устройств (планшеты) */
+/* for middle devices (tablets) */
 @media (min-width: 420px) {
     img {
         max-width: 50%;
         display: inline-block;
-        text-align: center;
+        align-items: center;
     }
 }
 
-/* Для больших устройств (ноуты, пк) */
-@media (min-width: 760px) {
+/* for large devices (laptops, PC) */
+ @media (min-width: 760px) {
     img {
         max-width: 100%;
-        display: block;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        box-sizing: border-box;
-        margin: 0 auto;
+        display: flex;
     }
-    /* .hero-image{
-        margin-left: 175px;
+    .sub-hero-image, .sub-hero-image-procent{
+        display: flex;
     }
     .sub-hero-image{
-        margin-left: 75px;
+        
+        width: 600px;
+        height: 650px;
     }
-    .sizers-women{
-        margin-left: 350px;
-    } */
-}
+    .sub-hero-image-procent{
+        width: 600px;
+        height: 600px;
+    }
+} 
