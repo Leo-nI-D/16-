@@ -41,6 +41,10 @@
     width: 590px;
 }
 
+.sub-hero-p-container{
+    padding: 10px;
+}
+
 .sub-hero-p {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
