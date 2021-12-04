@@ -151,11 +151,12 @@ img {
         display: flex;
     }
     .sub-hero-image{
-        
+        display: flex;
         width: 600px;
         height: 650px;
     }
     .sub-hero-image-procent{
+        display: flex;
         width: 600px;
         height: 600px;
     }
